@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troop Battle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Troop Battle Game</h1>
+        <div class="input-container">
+            <label for="attackers">Enter number of attacking troops:</label>
+            <input type="number" id="attackers" min="1">
+        </div>
+        <div class="input-container">
+            <label for="defenders">Enter number of defending troops:</label>
+            <input type="number" id="defenders" min="1">
+        </div>
+        <div class="input-container">
+            <label for="stopAt">Stop if attackers reach:</label>
+            <input type="number" id="stopAt" min="1" value="1">
+        </div>
+        <button onclick="startBattle()">Start Battle</button>
+        <div id="summary" class="centered"></div>
+        <button id="detailsToggle" onclick="toggleDetails()" style="display:none;">Show Details</button>
+        <div id="details" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

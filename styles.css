@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Changed font */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px; /* Increased padding */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    max-width: 500px; /* Center the container */
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em; /* Increased font size */
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em; /* Increased font size */
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    margin-bottom: 10px; /* Added margin-bottom */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Increased font size */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; /* Increased font size */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#summary, #details {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1em; /* Increased font size */
+}
+
+#summary.centered {
+    text-align: center; /* Center the summary text */
+}
+
+.round {
+    margin-bottom: 10px;
+}
+
+.dice-rolls {
+    display: flex;
+    justify-content: center; /* Center the dice rolls */
+    gap: 10px; /* Added gap between dice rolls */
+    margin: 10px 0;
+}
+
+.dice {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
